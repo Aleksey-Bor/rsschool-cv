@@ -5,7 +5,7 @@ Telephone: **+37529 147-18-34.** E-mail: **aborki@gmail.com**
 
 *I am persistent in achieving my goal.*
 
-**My skils:** 
+**My skills:** 
 * Knowledge of **Html**
 * Knowledge of **CSS**
 * Knowledge of **JS**
