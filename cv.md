@@ -125,3 +125,5 @@ I recently completed the program **"Polyglot: English in 16 hours"** by **Channe
 
 I need an effective English improvement program.
 
+**Academic education:** Belarusian State Pedagogical University in 2000.
+
