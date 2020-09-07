@@ -13,7 +13,6 @@ Telephone: **+37529 147-18-34.** E-mail: **aborki@gmail.com**
 
 **My last code**(Game Puzl)**:**
 
-http://fe.it-academy.by/Sites/0031003/puzl.html - automatic!
 [Puzle](http://fe.it-academy.by/Sites/0031003/puzl.html)
 
 
@@ -75,7 +74,6 @@ function posElem(EO) {
 
 **My last code**(Perpetual calendar)**:**
 
-https://eternal-calendar.alieksieiborko1.repl.co/ - automatic!
 [Perpetual calendar](https://eternal-calendar.alieksieiborko1.repl.co/)
 
 **Code:**
@@ -108,10 +106,8 @@ alert(`Интересующий вас день: ${getWeekDay2(dat)}`);
 
 **My last works:**
 
-http://retoart.ru/ - automatic!
 [RETOART](http://retoart.ru)
 
-http://fe.it-academy.by/Sites/0031003/index.html - automatic!
 [Нow to travel online](http://fe.it-academy.by/Sites/0031003/index.html)
 
 **My teachers:**
