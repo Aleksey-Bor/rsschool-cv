@@ -1,6 +1,7 @@
 # Aliaksei Barkouski
 Telephone: **+37529 147-18-34.** E-mail: **aborki@gmail.com**
-I am job seeker for junior web developer/ Frontend
+
+*I am job seeker for junior web developer/ Frontend*
 
 *I am persistent in achieving my goal.*
 
