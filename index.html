@@ -7,11 +7,114 @@
     <title>CV / Aliaksei Barkouski</title>
 </head>
 <body>
-    <div class="main-center" itemscope itemtype="http://schema.org/Person">
-        <h1 class="name" temprop="name">Aliaksei Barkouski</h1>
+    <main class="main-center" itemscope itemtype="http://schema.org/Person">        
+        <img class="avatar" src="images/selfy.jpg" alt="selfy">
+        <h1 class="name" itemprop="name">Aliaksei Barkouski</h1>
         <p class="contacts">Telephone:<span class="contacts-bold" itemprop="telephone"> +375 29 147-18-34</span></p>
         <p class="contacts">Email:<span class="contacts-bold" itemprop="email"> aborki@gmail.com</span></p>
-    </div>
+        <p class="goal-italic" itemprop="seeks">I am job seeker for junior web developer/ Frontend</p>
+        
+
+        <section class="more">
+            <articles class="articles-block">
+              <h3 class="block-name">My Skills:</h3>
+              <ul>
+                  <li>Knowledge<span class="bold"> HTML</span></li>
+                  <li>Knowledge<span class="bold"> CSS</span></li>
+                  <li>Knowledge<span class="bold"> JS</span></li>                  
+              </ul>
+            </articles>
+            <articles class="articles-block">
+                <h3 class="block-name">My last code(Puzzle game):</h3>
+                <pre>
+                    <code>
+"use strict";
+
+window.addEventListener('load', posElem, false);
+function posElem(EO) {
+  EO = EO || window.event;
+  var elems = document.getElementsByTagName('img');
+
+  for (var i = elems.length - 1; i >= 0; i--) {
+    var elem = elems[i];
+
+    elem.style.top = elem.offsetTop + 'px';
+    elem.style.left = elem.offsetLeft + 'px';
+    elem.style.position = 'absolute';
+    elem.onmousedown = imgMouseDown;
+    elem.onmouseup = imgMouseUp;
+  };
+
+
+  function imgMouseDown(EO) {
+    EO = EO || window.event;
+    EO.preventDefault();
+    console.log('Нажал на пазл');
+
+    var dounShiftCoordX = EO.pageX - EO.target.offsetLeft;
+    var dounShiftCoordY = EO.pageY - EO.target.offsetTop;
+
+    var cont = document.getElementById('box');
+    var pict = EO.target;
+    cont.appendChild(pict);
+
+
+    window.onmousemove = imgMouseMove;
+    function imgMouseMove(EO) {
+      EO = EO || window.event;
+      EO.preventDefault();
+      console.log('Тащу пазл');
+
+      pict.style.top = (EO.pageY - dounShiftCoordY) + 'px';
+      pict.style.left = (EO.pageX - dounShiftCoordX) + 'px';
+
+    }
+  }
+
+  function imgMouseUp(EO) {
+    EO.preventDefault();
+    console.log('Отпустил пазл');
+
+    window.onmousemove = null;
+
+  }
+};
+                    </code>
+                </pre>
+                <a href="http://fe.it-academy.by/Sites/0031003/puzl.html" target="_blank">Play a Puzzle Game</a>
+
+            </articles>
+
+            <articles class="articles-block">
+                <h3 class="block-name">My latest projects:</h3>
+                <ol>
+                    <li><a href="http://retoart.ru/" target="_blank">Photo retouch studio "RETOART"</a></li>
+                    <li><a href="http://fe.it-academy.by/Sites/0031003/index.html" target="_blank">Online tutorial for the webinar "How to travel online"</a></li>
+                </ol>
+               
+            </articles>
+
+            <articles class="articles-block">
+                <h3 class="block-name">My teachers:</h3>
+                <ol>
+                    <li>Сourses <span class="bold">"Website development using HTML in KSS"</span> by <span class="bold">IT- Academy</span> in 2019</li>
+                    <li>Сourses <span class="bold">"Development of web applications on Java Script"</span> by <span class="bold">IT- Academy</span> in 2020</li>
+                    <li>I studied Java Script on my own in an online tutorial  <span class="bold">learn.javascript.ru</span></li>
+                </ol>
+            </articles>
+
+            <articles class="articles-block">
+                <h3 class="block-name">My English:</h3>
+                <span>My English level is A1</span>               
+            </articles>
+
+            <articles class="articles-block">
+                <h3 class="block-name">Academic education:</h3>
+                <span>Belarusian State Pedagogical University named after M. Tank in 2020</span>               
+            </articles>
+        </section>
+
+    </main>
     
 </body>
-</html>
+</html> 
